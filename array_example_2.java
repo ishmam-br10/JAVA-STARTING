@@ -1,4 +1,4 @@
-public class array_exe_2 {
+public class array_example_2 {
     public static void main(String[] args) {
         int[] numbers = {1, 2, -3, 5, 7};
         int sum = 0;
