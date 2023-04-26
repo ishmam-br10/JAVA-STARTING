@@ -9,6 +9,7 @@ public class array_example_4 {
         int n = Input.nextInt();
         while(n>20 || n<=0){
             System.out.print("Invalid number, try again: ");
+            System.out.print("Input index: ");
             n = Input.nextInt();
         }
         int[] numbers = new int[n];
@@ -38,6 +39,7 @@ public class array_example_4 {
     public static void fillArrayofIntegers(int[] numbers) {
         Scanner Input = new Scanner(System.in);
         for(int i = 0; i<numbers.length; i++){
+            System.out.print("Index " +i +" : ");
             numbers[i] = Input.nextInt();
         }
     }
