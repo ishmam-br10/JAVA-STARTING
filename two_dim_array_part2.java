@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class two_dim_array_part2 {
+    // https://shorturl.at/aAFNO
     public static void main(String[] args) {
         int[][] integers = {{1, 3, 5}, {7, 8, 9}};
         // System.out.println(Arrays.toString(integers));
