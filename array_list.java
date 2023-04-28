@@ -23,7 +23,7 @@ public class array_list {
         // size of array list
         System.out.println(fruits.size());
         // // clear an array list
-        // fruits.clear();
+         // fruits.clear();
         // System.out.println(fruits);
         // size of array list
         System.out.println(fruits.size());
