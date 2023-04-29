@@ -2,8 +2,12 @@ import java.awt.*;
 public class circle_n{
     Point center;
     double radius;
-    circle_n(){}
+    static int numberofCircles = 0;
+    circle_n(){
+        numberofCircles++;
+    }
     circle_n(Point center, double radius){
+        numberofCircles++;
         this.center = center;
         this.radius = radius;
     }
@@ -18,5 +22,8 @@ public class circle_n{
     }
     void setRadius(double radius){
         this.radius = radius;
+    }
+    static int getnumberofCircles(){
+        return numberofCircles;
     }
 }
